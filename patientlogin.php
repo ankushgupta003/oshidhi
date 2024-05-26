@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Page</title>
+<title>Patient Login</title>
 <link rel="stylesheet" type="text/css" href="./css/patient.css">
 </head>
 <body>
@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
   
     <form action="" method="post">
       <img class="patientimg" src="./images/man(p).png" alt="Image">
-      <h2>Login</h2>
+      <h2>Patient Login</h2>
       <div class="input-group">
         <label for="username">Username</label>
         <input type="email" id="email" name="email" required>

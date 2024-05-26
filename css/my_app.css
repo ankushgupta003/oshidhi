@@ -4,39 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4;
+    background-image: url("../images/background.png");
     color: #333;
-}
-
-/* Header Styles */
-header {
-    background-color: #343a40;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-header .logos img {
-    max-height: 50px;
-}
-
-header .navbars {
-    display: flex;
-    gap: 15px;
-}
-
-header .navbars a {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-}
-
-header .navbars a:hover {
-    background-color: #495057;
-    border-radius: 5px;
 }
 
 /* Orders Section Styles */
@@ -44,7 +13,7 @@ section.orders {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -53,7 +22,7 @@ section.orders .heading {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    color: #343a40;
+    color: #265073;
 }
 
 section.orders .box-container {
@@ -80,7 +49,7 @@ section.orders .box p {
 
 section.orders .box p span {
     font-weight: bold;
-    color: #007bff;
+    color: #2D9596;
 }
 
 /* Empty Message Styles */
@@ -91,7 +60,7 @@ section.orders .empty {
 }
 
 section.orders .empty a {
-    color: #007bff;
+    color: #2D9596;
     text-decoration: none;
 }
 

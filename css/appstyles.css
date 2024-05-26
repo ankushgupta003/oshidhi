@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../images/background1.jpg");
+    background-image: url("../images/background.png");
     color: #333;
 }
 /* Main Content Styles */
@@ -12,7 +12,7 @@ main {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,7 +40,7 @@ main {
 }
 
 #appointmentForm button {
-    background-color: #007bff;
+    background-color: #265073;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -50,7 +50,7 @@ main {
 }
 
 #appointmentForm button:hover {
-    background-color: #0056b3;
+    background-color: #2D9596;
 }
 
 /* Message Styles */

@@ -3,9 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #265073;
     padding: 10px;
-    border-radius: 5px;
     height: 2rem;
 }
 
@@ -20,7 +19,7 @@
 
 .navbars a {
     text-decoration: none;
-    color: #51829B;
+    color: #F1FADA;
     font-weight: bold;
     padding: 10px 20px;
     margin-right: 10px;
@@ -29,8 +28,8 @@
 }
 
 .navbars a:hover {
-    background-color: #F6995C;
-    color: white;
+    background-color: #2D9596;
+    color: whitesmoke;
 }
 
 /* Responsive Styles */

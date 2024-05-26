@@ -195,30 +195,6 @@ if(isset($_SESSION['user_id'])){
             <p>Our interdisciplinary project aims to seamlessly integrate hardware and software solutions to revolutionize the healthcare sector. At the heart of our innovation is a user-friendly website designed to streamline medical record management using unique Abha IDs. Patients can effortlessly access their previous medical records and prescribed medications, fostering continuity of care and empowering individuals to take control of their health. Additionally, our platform facilitates the prescription process by generating barcodes for newly prescribed medications, ensuring accuracy and efficiency. Complementing our digital infrastructure is a cutting-edge medical ATM powered by Arduino Uno technology. This hardware component autonomously dispenses medications based on the barcode information provided by the website, enhancing accessibility and convenience for patients while optimizing workflow for healthcare providers. Together, our integrated solution represents a significant step forward in leveraging technology to improve healthcare delivery and patient outcomes.</p>
         </div>
     </div>
-
-    <div class="team-heading" id="team">Team</div>
-    <div class="circle-images">
-        <div>
-            <img src="./images/abhijeet.JPG" alt="Abhijeet Singh">
-            <p>Abhijeet Singh (2820021)</p>
-        </div>
-        <div>
-            <img src="./images/image2.jpg" alt="Ankush">
-            <p>Ankush (282003)</p>
-        </div>
-        <div>
-            <img src="./images/bhavika.jpg" alt="Bhavika">
-            <p>Bhavika (2820113)</p>
-        </div>
-        <div>
-            <img src="./images/image4.jpg" alt="Vinayaka Prasad">
-            <p>Vinayaka Prasad (2820240)</p>
-        </div>
-        <div>
-            <img src="./images/image5.jpg" alt="Shuban">
-            <p>Shuban (2820039)</p>
-        </div>
-    </div>
 </div>
 
 </body>

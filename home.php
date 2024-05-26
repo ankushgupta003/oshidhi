@@ -79,7 +79,7 @@ if ($query->rowCount() > 0) {
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" required></textarea>
+                <textarea id="message" name="message" rows="7" required></textarea>
             </div>
             <button type="submit" name="submit">Submit Feedback</button>
         </form>

@@ -25,21 +25,22 @@ if(isset($_SESSION['user_id'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="./css/my_app.css">
+   <link rel="stylesheet" href="./css/header.css">
 
 </head>
 <body>
 <header>   
-<div class="headers">
-    <div class="logos">
-        <a href="./index.html"><img src="./images/logo-removebg-preview.png" alt="Logo"></a>
+    <div class="headers">
+        <div class="logos">
+            <a href="./index.html"><img src="./images/logo-removebg-preview.png" alt="Logo"></a>
+        </div>
+        <div class="navbars">
+            <a href="./home.php">Home</a>
+            <a href="./appointment.php">Appointments</a>
+            <a href="./patient_prescription.php">Prescriptions</a>
+            <a href="patientlogin.php">Login</a>
+        </div>
     </div>
-    <div class="navbars">
-        <a href="#home">Home</a>
-        <a href="./appointment.php">Appointments</a>
-        <a href="#project">About the project</a>
-        <a href="patientlogin.php">Login</a>
-    </div>
-</div>
 </header>
 
 <section class="orders">
