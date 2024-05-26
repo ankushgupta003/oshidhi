@@ -19,40 +19,16 @@ if(isset($_SESSION['user_id'])){
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Oshidhi</title>
+<link rel="icon" href="./images/title logo.png" type="image/icon type">
+<link rel="stylesheet" type="text/css" href="./css/header.css">
+
 <style>
     body {
         margin: 0;
         font-family: 'Roboto', sans-serif;
-        background-color: #f4f4f9;
+        background-color: #F1FADA;
         color: #333;
         line-height: 1.6;
-    }
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 20px 40px;
-        background-color: #283593;
-        color: white;
-    }
-    .logo img {
-        max-width: 150px;
-        height: auto;
-    }
-    .navbar {
-        display: flex;
-    }
-    .navbar a {
-        text-decoration: none;
-        color: white;
-        font-weight: 500;
-        padding: 10px 20px;
-        margin-right: 10px;
-        transition: background-color 0.3s ease;
-    }
-    .navbar a:hover {
-        background-color: #1a237e;
-        border-radius: 5px;
     }
     .container {
         padding: 40px 20px;
@@ -75,12 +51,13 @@ if(isset($_SESSION['user_id'])){
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         cursor: pointer;
-        background-color: white;
+        background-color: whitesmoke;
         text-align: center;
     }
     .big-button:hover {
         transform: translateY(-5px);
         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        background-color: white;
     }
     .big-button img {
         width: 100%;
@@ -90,7 +67,7 @@ if(isset($_SESSION['user_id'])){
         padding: 20px 0;
         font-size: 18px;
         font-weight: 600;
-        background-color: #283593;
+        background-color: #265073;
         color: white;
     }
     .content {
@@ -154,17 +131,18 @@ if(isset($_SESSION['user_id'])){
 </head>
 <body>
 
-<div class="header" id="home">
-    <div class="logo">
-        <a href="./index.html"><img src="./images/logo-removebg-preview.png" alt="Logo"></a>
+<header>   
+    <div class="headers">
+        <div class="logos">
+            <a href="./index.html"><img src="./images/logo-removebg-preview.png" alt="Logo"></a>
+        </div>
+        <div class="navbars">
+            <a href="index.php">Home</a>
+            <a href="#about">Abha</a>
+            <a href="#project">About</a>
+        </div>
     </div>
-    <div class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#project">Project</a>
-        <a href="#team">Team</a>
-    </div>
-</div>
+</header>
 
 <div class="container">
     <div class="buttons-container">

@@ -2,12 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-image: url("../images/background.png");
   }
   
   .container {
     max-width: 500px;
     margin: 50px auto;
-    background-color: #eaf6fd;
+    background-color: #9AD0C2;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -33,7 +34,7 @@ body {
   }
   
   .input-group input {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -44,13 +45,14 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #265073;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #F1FADA;
+    color: black;
   }
   

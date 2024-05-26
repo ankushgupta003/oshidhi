@@ -80,7 +80,7 @@ function sendOtpEmail($toEmail, $otp) {
     body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
+        background-color: #F1FADA;
     }
     .container {
         max-width: 500px;
@@ -92,7 +92,7 @@ function sendOtpEmail($toEmail, $otp) {
     }
     h2 {
         text-align: center;
-        color: #007bff;
+        color: #265073;
     }
     form {
         display: grid;
@@ -107,7 +107,7 @@ function sendOtpEmail($toEmail, $otp) {
     input[type="number"],
     select,
     textarea {
-        width: 100%;
+        width: calc(100% - 20px);
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
@@ -123,13 +123,13 @@ function sendOtpEmail($toEmail, $otp) {
         padding: 10px;
         border: none;
         border-radius: 5px;
-        background-color: #007bff;
+        background-color: #265073;
         color: #fff;
         cursor: pointer;
         transition: background-color 0.3s ease;
     }
     input[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color: #2D9596;
     }
     .error-message {
         color: #dc3545;
