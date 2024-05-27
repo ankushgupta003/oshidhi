@@ -44,7 +44,7 @@ if ($query->rowCount() > 0) {
             <a href="./home.php">Home</a>
             <a href="./appointment.php">Appointments</a>
             <a href="./patient_prescription.php">Prescriptions</a>
-            <a href="patientlogin.php">Login</a>
+            <a href="patientlogin.php">Logout</a>
         </div>
     </div>
 </header>
@@ -52,18 +52,22 @@ if ($query->rowCount() > 0) {
     <div class="welcome-message">
         <h2>Welcome, <?= htmlspecialchars($patient_name); ?>!</h2>
     </div>
-    <div class="container">
-        <div class="row">
-                <a href="./appointment.php"><button class="button">Book your appointment</button></a>
-            </div>
-            <div class="row">
-                <a href="./my_app.php"><button class="button">My appointments</button></a>
-            </div>
-        
-        <div class="row">
-                <a href="./patient_prescription.php"><button class="button">My prescriptions</button></a>
-            </div> 
-        </div>
+    <div class="containers">
+    <div class="buttons-container">
+        <button class="big-button">
+           <a href="./appointment.php"> <img src="./images/appointment.gif" alt="Doctor"></a>
+            <div class="button-text">Book Your Appointment</div>
+        </button>
+        <button class="big-button">
+            <a href="./my_app.php">  <img src="./images/my_appointments.gif" alt="Patient"></a>
+            <div class="button-text">My Appointments</div>
+        </button>
+        <button class="big-button">
+            <a href="./patient_prescription.php">  <img src="./images/medicine.gif" alt="Patient"></a>
+            <div class="button-text">View Medications</div>
+        </button>
+    </div>
+</div>
     </div>
 
     <div class="feedback-container">

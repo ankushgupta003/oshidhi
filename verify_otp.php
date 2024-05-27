@@ -39,7 +39,66 @@ if (isset($_POST['verify'])) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Verify OTP</title>
 <style>
-    /* Your CSS styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url("images/background.png");
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    h2 {
+        margin-top: 0;
+        text-align: center;
+        color: #333;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #265073;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #2D9596;
+        color: white;
+    }
 </style>
 </head>
 <body>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2024 at 12:00 PM
+-- Generation Time: May 27, 2024 at 03:15 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -119,16 +119,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `fname`, `dob`, `gender`, `email`, `number`, `address`, `aadhar`, `enumber`, `abha_id`, `history`) VALUES
-(3, 'Vinayaka', 'Narendra', '2001-10-21', 'female', 'prasadvinayaka@gmail.com', '8168896568', 'Hostel Panipat', 2147483647, 2147483647, '25189956', 'No'),
-(4, 'Shubhan', 'Deepak', '2002-02-13', 'male', 'shubhan@gmail.com', '8826020395', 'dehi', 2147483647, 2147483647, '2654522565', 'No'),
-(5, 'Abhijeet', 'Balbir singh', '0000-00-00', 'male', 'abhijeet@gmail.com', '1234567890', 'delhi', 2147483647, 1234567890, '25645', 'No'),
-(8, 'Ankush Gupta', 'Gulshan Kumar', '2003-01-14', 'male', 'themarvelfan03@gmail.com', '8684997801', 'omaxe city bahadurgarh', 2147483647, 2147483647, '12452365', 'No');
-
---
 -- Indexes for dumped tables
 --
 
@@ -177,7 +167,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `appointments`
 --
 ALTER TABLE `appointments`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `history`
@@ -189,7 +179,7 @@ ALTER TABLE `history`
 -- AUTO_INCREMENT for table `prescriptions`
 --
 ALTER TABLE `prescriptions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `users`

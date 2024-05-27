@@ -8,14 +8,13 @@
 /* Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #F1FADA;
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #007bff;
+    background-color: #265073;
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -31,8 +30,8 @@ header p {
 }
 
 header button {
-    background-color: #ff4757;
-    color: #fff;
+    background-color: #2D9596;
+    color: #F1FADA;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -49,15 +48,16 @@ header form {
 }
 
 header form button {
-    background-color: #ff4757;
+    background-color: #2D9596;
 }
 
 header button:last-child {
-    background-color: #343a40;
+    background-color: #2D9596;
 }
 
 header button:last-child:hover {
-    background-color: #495057;
+    background-color: #9AD0C2;
+    color: #265073;
 }
 
 /* Section Styling */
@@ -89,7 +89,7 @@ table td {
 }
 
 table th {
-    background-color: #007bff;
+    background-color: #265073;
     color: #fff;
 }
 

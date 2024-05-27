@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #F1FADA;
     margin: 0;
     padding: 20px;
 }
 
 header {
-    background-color: #4682b4;
+    background-color: #265073;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -48,7 +48,7 @@ textarea {
 }
 
 button {
-    background-color: #4682b4;
+    background-color: #265073;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -59,11 +59,10 @@ button {
 }
 
 button:hover {
-    background-color: #5a9bd5;
+    background-color: #2D9596;
 }
 
 #add-medicine {
-    margin-top: 10px;
     display: block;
 }
 
