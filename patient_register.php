@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     $address = $_POST['address'];
     $aadhar = $_POST['aadhar'];
     $enumber = $_POST['enumber'];
-    $aabha = $_POST['aabha'];
+    $abha_id = $_POST['abha_id'];
     $history = $_POST['history'];
 
     // Generate a 6-digit OTP
@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
         'address' => $address,
         'aadhar' => $aadhar,
         'enumber' => $enumber,
-        'aabha' => $aabha,
+        'abha_id' => $abha_id,
         'history' => $history
     ];
 
@@ -175,8 +175,8 @@ function sendOtpEmail($toEmail, $otp) {
         <label for="enumber">Emergency Contact Number:*</label>
         <input type="tel" id="enumber" name="enumber" pattern="[0-9]{10}" required>
 
-        <label for="aabha">aabha ID:*</label>
-        <input type="text" id="aabha" name="aabha" required>
+        <label for="abha_id">Abha ID:*</label>
+        <input type="text" id="abha_id" name="abha_id" required>
         <span class="error-message">* If you don't have an aabha ID, please <a href="https://www.eka.care/ayushman-bharat/create-aabha-abdm-ndhm-health-id?utm_source=Paid&utm_medium=SEM&utm_campaign=Health-ID&utm_term=KWs&gad_source=1&gclid=CjwKCAjwi_exBhA8EiwA_kU1Ms8pNRICqRsJpJgW_SGnKTZuMQof83YPHoDd9IDUAf9OTIFSiaBOtRoCU6oQAvD_BwE">click here</a>.</span>
 
         <label for="history">Previous Medical History:*</label>

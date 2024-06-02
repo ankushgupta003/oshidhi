@@ -9,11 +9,11 @@ if (isset($_POST['verify'])) {
         // OTP is correct, insert user data into the database
         $userData = $_SESSION['user_data'];
         
-        $insert_user = $conn->prepare("INSERT INTO `users`(name, fname, dob, gender, email, number, address, aadhar, enumber, aabha, history) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        $insert_user = $conn->prepare("INSERT INTO `users`(name, fname, dob, gender, email, number, address, aadhar, enumber, abha_id, history) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
         $insert_user->execute([
             $userData['name'], $userData['fname'], $userData['dob'], $userData['gender'],
             $userData['email'], $userData['number'], $userData['address'], $userData['aadhar'],
-            $userData['enumber'], $userData['aabha'], $userData['history']
+            $userData['enumber'], $userData['abha_id'], $userData['history']
         ]);
 
         // Clear session data
